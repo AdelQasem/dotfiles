@@ -1,3 +1,3 @@
 lua require('plugins')
 
-vim.cmd[[colorscheme nord]]
+colorscheme nord
