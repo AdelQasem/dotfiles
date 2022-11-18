@@ -15,3 +15,6 @@ fpath+=($HOME/.zsh/pure)
 autoload -U promptinit; promptinit
 prompt pure
 alias config='/usr/bin/git --git-dir=/home/adel/.cfg/ --work-tree=/home/adel'
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
