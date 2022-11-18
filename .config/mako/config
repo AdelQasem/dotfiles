@@ -1,0 +1,15 @@
+# Global configuration
+
+anchor=top-right
+
+# Style options
+
+font=SourceSansPro
+background-color=#3b4252
+text-color=#eceff4
+width=450
+height=300
+border-size=3
+border-radius=5
+border-color=#4c566a
+default-timeout=8000
