@@ -5,6 +5,4 @@ return require('packer').startup(function(use)
   use 'sheerun/vim-polyglot' 
   
   use 'shaunsingh/nord.nvim'
-
-  vim.cmd[[colorscheme nord]]
 end)
