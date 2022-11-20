@@ -11,9 +11,13 @@ gaps outer 3
 font pango:SourceSansPro Regular 14 
 
 exec mako
-exec_always sleep 0.2 && nm-applet --indicator && pasystray
 
-set $wallpaper /usr/share/backgrounds/foggy_mountain.jpg
+### Load applets
+exec sleep 0.2 && nm-applet --indicator
+exec pasystray
+exec blueman-applet
+
+set $wallpaper /usr/share/backgrounds/abstract.png
 
 ### Variables
 #
