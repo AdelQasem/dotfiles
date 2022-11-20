@@ -5,7 +5,7 @@
     // "width": 1280, // Waybar width
     "modules-left": ["sway/workspaces"],
     "modules-center": [],
-    "modules-right": ["tray", "backlight", "pulseaudio", "battery", "clock", "custom/power"],
+    "modules-right": ["tray", "backlight", "network", "pulseaudio", "battery", "clock", "custom/power"],
     //Evntual modules: bluetooth, network, mpd, idle_inhibitor, sndio (?) 
     // Modules configuration
     // "sway/workspaces": {
