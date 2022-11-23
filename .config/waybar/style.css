@@ -79,12 +79,16 @@ window#waybar.hidden {
 }
 
 label:focus {
-    background-color: #4C566A;
+    background-color: #4c566A;
 }
 
 #custom-power {
     padding: 0 10px;
     margin: 6px 3px;
-    background: #88c0d0;
+    background-color: #88c0d0;
     color: #eceff5;
+}
+
+#custom-power:hover {
+    color: #bf616a;
 }
