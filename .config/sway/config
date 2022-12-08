@@ -8,7 +8,7 @@ gaps inner 5
 gaps outer 3
 # default_border pixel 2
 
-font pango:SourceSansPro Regular 14 
+font "pango:SourceSansPro Regular 14"
 
 exec mako
 
@@ -17,7 +17,7 @@ exec sleep 0.2 && nm-applet --indicator
 exec pasystray
 exec blueman-applet
 
-set $wallpaper /usr/share/backgrounds/abstract.png
+set $wallpaper ~/.config/backgrounds/abstract.png
 
 ### Variables
 #
