@@ -36,7 +36,7 @@
     "backlight": {
         // "device": "acpi_video1",
         "format": "{percent}% {icon}",
-        "format-icons": [ "", "","", "", "", "", ""]
+        "format-icons": [""] 
     },
     "battery": {
         "states": {
@@ -50,7 +50,7 @@
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""] // To add arbitrary unicode chars (insert mode): CTRL+V then u and the 4 digit unicode
     },
     "network": {
         "format-wifi": "",
