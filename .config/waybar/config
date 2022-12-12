@@ -68,7 +68,7 @@
         "format-icons": {
             "default": ["", "", ""]
         },
-        "on-click": "alsamixer"
+        "on-click": "amixer sset Master toggle"
     },
     "custom/power": {
         "format": "⏻",
