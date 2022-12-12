@@ -15,7 +15,7 @@ configuration {
 
 listview {
 	lines: 10;
-	columns: 1;
+	columns: 2;
 }
 
 window {
