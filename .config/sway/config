@@ -1,23 +1,26 @@
-# Default config for sway
-#
-# Copy this to ~/.config/sway/config and edit it to your liking.
-#
-# Read `man 5 sway` for a complete reference.
-
+### Personalization
 gaps inner 5
 gaps outer 3
 # default_border pixel 2
 
 font "pango:SourceSansPro Regular 14"
 
-exec mako
+set $wallpaper ~/.config/backgrounds/abstract.png
 
-### Load applets
+
+### Load applets and other stuff
 exec sleep 0.2 && nm-applet --indicator
 exec pasystray
 exec blueman-applet
 
-set $wallpaper ~/.config/backgrounds/abstract.png
+exec mako
+
+
+### Input device configuration
+input type:touchpad natural_scroll enabled
+input type:touchpad tap enabled
+input type:touchpad scroll_factor 0.5
+
 
 ### Variables
 #
@@ -99,7 +102,7 @@ input type:keyboard {
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    bindsym $mod+Shift+e exec wlogout -p layer-shell
 
 #
 # Moving around:

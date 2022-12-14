@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "swaylock",
+    "action" : "swaylock -f -i /usr/share/backgrounds/abstract.png -s fill",
     "text" : "Lock",
     "keybind" : "l"
 }
