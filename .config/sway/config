@@ -5,7 +5,7 @@ gaps outer 3
 
 font "pango:SourceSansPro Regular 14"
 
-set $wallpaper ~/.config/backgrounds/abstract.png
+set $wallpaper ~/.config/backgrounds/poly.jpg
 
 
 ### Load applets and other stuff
@@ -44,7 +44,7 @@ bindsym $mod+l exec swaylock -f -i $wallpaper -s fill
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg $wallpaper fill
+output * bg $wallpaper fit
 #
 # Example configuration:
 #
