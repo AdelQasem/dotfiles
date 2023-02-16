@@ -29,7 +29,7 @@
     },
     "clock": {
         "timezone": "Europe/Zurich",
-        "format": "{:%H:%M}",
+        "format": "{:%b %d - %H:%M}",
         "tooltip-format": "{:%B %d, %Y | %I:%M %p}",
         "format-alt": "{:%b %d}",
     },
