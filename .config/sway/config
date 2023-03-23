@@ -44,7 +44,7 @@ bindsym $mod+l exec swaylock -f -i $wallpaper -s fill
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg $wallpaper fit
+output * bg $wallpaper fill
 #
 # Example configuration:
 #
